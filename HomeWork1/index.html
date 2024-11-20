@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    1) Модифицируйте сервер Express, чтобы он выполнял следующие действия: <br>
+    Возвращал файл index.html по маршруту /. <br>
+    Возвращал файл student.html по новому маршруту /student. <br>
+    Возвращал JSON-ответ по маршруту /api/info, который содержит следующий объект: { "name": "Ваше Имя", "task": "Динамические маршруты Express", "status": "В процессе" } <br>
+        Убедитесь, что сервер обрабатывает ошибки корректно. <br>
+    Если файл не найден, возвращайте статус 404 Not Found и сообщение об ошибке. <br>
+    2) Добавьте параметр запроса к маршруту /api/info, чтобы можно было динамически обновлять поле "status". <br>
+    Например: /api/info?status=Completed должен возвращать: { "name": "Ваше Имя", "task": "Динамические маршруты Express", "status": "Completed" }<br>
+</body>
+</html>
