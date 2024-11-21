@@ -1,0 +1,5 @@
+[
+    { "id": 1, "fullname": "Yelemanov Temirlan", "grades": 12, "age": 24 },
+    { "id": 2, "fullname": "foo baz", "grades": 5, "year": 22 }
+  ]
+  

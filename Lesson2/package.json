@@ -1,0 +1,21 @@
+{
+  "name": "randomnumberlesson2",
+  "version": "1.0.6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.7",
+    "npm-lesson-nodejs2": "^3.0.0",
+    "randomnumberlesson2": "1.0.6",
+    "testbooks-lessonnodejs": "^1.0.0",
+    "url": "^0.11.4"
+  }
+}
