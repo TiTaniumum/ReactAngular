@@ -1,0 +1,19 @@
+.hello{
+    width: 100vw;
+    height: 100vh;
+    &__container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(57, 204, 253);
+    }
+    &__title{
+        padding: 20px 30px;
+        border: 1px solid black;
+        h1{
+            background: white
+        }
+    }
+}
