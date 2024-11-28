@@ -4,6 +4,7 @@ import { HelloWorldNewComponent } from './components/hello-world-new/hello-world
 import { Error404Component } from './components/error-404/error-404.component';
 import { PicksComponent } from './components/picks/picks.component';
 import { TobeComponent } from './components/tobe/tobe.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 export const routes: Routes = [
     {path: 'hello', component: HelloWorldComponent},
@@ -11,6 +12,7 @@ export const routes: Routes = [
     {path: '404', component: Error404Component},
     {path: 'picks', component: PicksComponent},
     {path: 'tobe', component: TobeComponent},
+    {path: 'resume',component: ResumeComponent},
     {path: '', redirectTo: '/404', pathMatch: 'full'},
     {path: '**', redirectTo: '/404', pathMatch: 'full'}
 ];
