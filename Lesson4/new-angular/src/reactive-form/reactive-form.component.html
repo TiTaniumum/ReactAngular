@@ -1,0 +1,18 @@
+<div class="forms">
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div class="input-field">
+            <input type="text" name="name" id="name" formControlName="nameInput" required>
+            <span *ngIf="myForm.controls['nameInput'].invalid && !myForm.controls['nameInput'].untouched">{{myForm.controls['nameInput'].errors | json}}</span>
+            <span *ngIf="myForm.controls['nameInput']?.hasError('minlength')">Length is not right</span>
+        </div>
+        <div class="input-field">
+            <input type="email" name="email" id="email" formControlName="emailInput">
+        </div>
+
+        <div class="action-field">
+            <div class="action-field__btn">
+                <button type="submit">Submit form</button>
+            </div>
+        </div>
+    </form>
+</div>

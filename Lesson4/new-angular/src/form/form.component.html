@@ -1,0 +1,16 @@
+<div class="forms">
+    <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+        <div class="input-field">
+            <input type="text" name="name" id="name" [(ngModel)]="nameInput">
+        </div>
+        <div class="input-field">
+            <input type="email" name="email" id="email" [(ngModel)]="emailInput">
+        </div>
+
+        <div class="action-field">
+            <div class="action-field__btn">
+                <button type="submit">Submit form</button>
+            </div>
+        </div>
+    </form>
+</div>
