@@ -1,1 +1,6 @@
 <p>clothing works!</p>
+<div *ngFor="let clothing of getClothes() ">
+    <div>{{clothing.name}}</div>
+    <img src="{{clothing.link}}" alt="">
+    <div>{{clothing.description}}</div>
+</div>

@@ -10,16 +10,8 @@
         <div class="content">
         <b>Опыт работы</b> <br>
         
-        <ul>
-            <li>
-                01.03.2021 — 12.10.2021 <br>
-                Оператор принтеров • «Keruen Plus» <br>
-                Обеспечивал оборудование бесперебойной работой.  <br>
-            </li>
-            <li>
-                DAMUMED
-                1 год
-            </li>
+        <ul *ngFor="let job of jobs">
+            <li>{{job}}</li>
         </ul>
         <b>Образование</b>
         <ul>
@@ -30,7 +22,7 @@
         </ul>
     
         <b>Hard Skills</b> <br>
-        C++, C#, HTML, CSS, JavaScript,.NET, Winforms, WPF. <br>
+        {{ getSkills() }} <br>
     
         <b>Soft Skills</b>
         <ul>
@@ -42,10 +34,7 @@
         </ul>
     
     <b>Дополнительно</b> <br>
-    Мой ГитХаб - https://github.com/TiTaniumum <br>
-    Рекомендательное письмо - https://drive.google.com/file/d/1hzwbRcbeNaGcfRGDuYLhHyx8-WfDob33/view?usp=drive_link <br>
-    Мой Первый сайт - https://titaniumum.github.io/ <br>
-    2Д игра на С++ - https://github.com/mlktkd/Runamicon  <br>
+    {{ getAdditional() }}
     
         </div>
     </div>

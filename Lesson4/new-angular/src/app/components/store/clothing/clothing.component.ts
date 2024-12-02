@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ClothesService } from './clothes.service';
 
 @Component({
   selector: 'app-clothing',
@@ -7,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './clothing.component.scss'
 })
 export class ClothingComponent {
+  constructor(private clothes: ClothesService){
 
+  }
+
+  getClothes(): {name: string, link: string, description: string}[]{
+    return this.clothes.getClothes();
+  }
 }
