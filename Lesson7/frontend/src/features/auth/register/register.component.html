@@ -1,0 +1,25 @@
+<div class="register">
+  <div class="register__container">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="register__inputs">
+        <div class="input-field">
+          <label for="username">Username</label>
+          <input type="text" id="username" formControlName="username" />
+        </div>
+        <div class="input-field">
+          <label for="password">Password</label>
+          <input type="password" id="password" formControlName="password" />
+        </div>
+        <div class="input-field">
+            <label for="passwordConfirm">Confirm password</label>
+            <input type="password" id="passwordConfirm" formControlName="passwordConfirm" />
+          </div>
+      </div>
+      <div class="register__actions">
+        <div class="register__actions-btn">
+          <button type="submit" [disabled]="registerForm.invalid">Register</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
