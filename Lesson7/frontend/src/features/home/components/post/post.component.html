@@ -1,0 +1,27 @@
+<div class="post" *ngIf="post">
+  <div class="post__avatar">
+    <img src="assets/img/{{post.avatar}}" alt="" />
+  </div>
+
+  <div class="post__body">
+    <div class="post__header">
+      <div class="post__headerText">
+        <h3>
+          {{post.author}}
+          <span class="post__headerSpecial"><span class="material-icons post__badge"> {{post.status}} </span> &#64;rakesh1234</span>
+        </h3>
+      </div>
+      <div class="post__headerDescription">
+        <p>
+          {{post.description}}
+        </p>
+      </div>
+    </div>
+    <img src="assets/img/{{post.photo}}" alt="" />
+    <div class="post__footer">
+      <span class="material-icons"> repeat </span>
+      <span class="material-icons"> favorite_border </span>
+      <span class="material-icons"> publish </span>
+    </div>
+  </div>
+</div>

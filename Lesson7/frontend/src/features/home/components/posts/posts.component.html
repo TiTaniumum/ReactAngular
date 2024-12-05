@@ -1,0 +1,14 @@
+<div class="posts-container">
+  <div class="posts-container__header">
+    <h2>Home</h2>
+  </div>
+  <div class="create-container">
+    <app-create-post></app-create-post>
+  </div>
+  <div class="post-container">
+    <ng-container *ngFor="let post of getPosts()">
+        <app-post [post]="post"></app-post>
+    </ng-container>
+    <button (click)="changePost()">change post</button>
+  </div>
+</div>
