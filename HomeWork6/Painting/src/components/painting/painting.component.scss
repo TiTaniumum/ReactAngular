@@ -1,0 +1,42 @@
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  .painting {
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 400px;
+      width: 400px;
+      object-fit: contain;
+    }
+  }
+  .other {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    .painting-mini {
+      border: 1px solid black;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 150px;
+        width: 150px;
+        object-fit: contain;
+      }
+    }
+  }
+}

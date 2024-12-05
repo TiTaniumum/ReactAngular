@@ -1,0 +1,20 @@
+<div class="content">
+  <div class="painting">
+    <h4>{{ painting.name }}</h4>
+    <img src="{{ painting.link }}" alt="" />
+    <p>year: {{ painting.year }}</p>
+    <p>author: {{ painting.author }}</p>
+    <p>size: {{ painting.size }}</p>
+    <p>place: {{ painting.place }}</p>
+  </div>
+  <div class="other">
+    <div class="painting-mini" *ngFor="let p of other">
+      <h4>{{ p.name }}</h4>
+      <img src="{{ p.link }}" alt="" />
+      <p>year: {{ p.year }}</p>
+      <p>author: {{ p.author }}</p>
+      <p>size: {{ p.size }}</p>
+      <p>place: {{ p.place }}</p>
+    </div>
+  </div>
+</div>

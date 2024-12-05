@@ -1,0 +1,13 @@
+<div class="content">
+    <div class="painting" *ngFor="let painting of Paintings()">
+        <a href="/painting/{{painting.id}}">Go to picture</a>
+        <div class="painting">
+            <h4>{{painting.name}}</h4>
+            <img src="{{painting.link}}" alt="">
+            <p>year:   {{painting.year}}</p>
+            <p>author: {{painting.author}}</p>
+            <p>size:   {{painting.size}}</p>
+            <p>place:  {{painting.place}}</p>
+        </div>
+    </div>
+</div>
