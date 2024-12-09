@@ -1,0 +1,15 @@
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+}
+
+.info-section-title{
+    display: inline-block;
+    width: 290px;
+}
+.info-section-subtitle{
+    width: 560px;
+}

@@ -1,0 +1,40 @@
+.listing-section {
+  padding: 120px;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.listing-section-title {
+  margin-bottom: 60px;
+}
+.listing-section-title span {
+  opacity: 0.5;
+}
+ul li {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+ul li h4 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: #c9c9c9;
+  margin-bottom: 15px;
+}
+ul li span {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: left;
+  color: #c9c9c9;
+}

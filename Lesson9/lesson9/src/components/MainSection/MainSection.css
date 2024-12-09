@@ -1,0 +1,24 @@
+.main-section {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+h1 {
+  font-size: 56px;
+  line-height: 68px;
+}
+p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;  
+  margin-bottom: 48px;
+}
