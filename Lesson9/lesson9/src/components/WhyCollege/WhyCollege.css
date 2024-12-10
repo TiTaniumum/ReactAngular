@@ -14,3 +14,11 @@
     font-size: 17px;
     
 }
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.gap{
+    gap: 20px;
+}
