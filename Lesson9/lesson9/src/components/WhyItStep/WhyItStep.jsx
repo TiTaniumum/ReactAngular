@@ -1,4 +1,5 @@
 import { whyItStep } from "../../data";
+import Button from "../Button/Button";
 
 export default function WhyItStep(){
     return (
@@ -7,6 +8,7 @@ export default function WhyItStep(){
             <ul>
                 {whyItStep.map((item, index)=><li key={index}>{item.reason}</li>)}
             </ul>
+            <Button click={()=>{alert('Вы подписали документ об отказе своей свободы воли, теперь вы раб!')}}>Записаться на консультацию</Button>
         </section>
     )
 }
