@@ -12,3 +12,10 @@ export default function WhyItStep(){
         </section>
     )
 }
+
+// const styles = StyleSheet.create({
+//     class1:{
+//         borderWidth: 10,
+//         borderColor: 'red'
+//     }
+// })

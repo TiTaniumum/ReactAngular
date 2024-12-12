@@ -1,0 +1,26 @@
+.header-container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.header-container-logo {
+}
+.header-container-list {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.header-container-item {
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-container-item:hover {
+  border-bottom: 1px solid #919191;
+  cursor: pointer;
+}
+.header-container-item.active {
+  color: #4b4bff;
+  border-bottom: 1px solid #4b4bff;
+}

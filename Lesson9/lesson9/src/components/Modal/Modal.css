@@ -1,0 +1,48 @@
+dialog {
+  width: 400px;
+  z-index: 1000;
+  margin: 150px auto;
+  padding: 30px 20px 40px;
+  border: 1px solid #ccc;
+}
+.modal-title {
+  font-size: 19px;
+  line-height: 21px;
+  margin-bottom: 32px;
+  padding: 0 12px;
+}
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 16px;
+}
+.modal-form input {
+  width: 100%;
+  position: relative;
+  background: #fff;
+  border: 1px solid #e8eff2;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  height: 40px;
+  margin: 0 auto 20px;
+  color: #343434;
+}
+.modal-form button {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #343434;
+  padding: 18px 30px;
+  background: #101010;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 10px;
+}
