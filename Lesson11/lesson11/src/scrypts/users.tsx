@@ -128,3 +128,5 @@ export interface IPainting {
 
 
 export const ps = new PaintingService();
+
+//https://jsonplaceholder.typicode.com/users
