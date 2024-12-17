@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.knowledge{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    width: 40%;
+    flex-wrap: wrap;
+    justify-content: center;
+}

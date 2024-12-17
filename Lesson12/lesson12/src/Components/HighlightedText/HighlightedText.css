@@ -1,0 +1,9 @@
+.highlighted{
+    color: cyan;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.highlighted:hover{
+    transform: scale(1.2);
+}
