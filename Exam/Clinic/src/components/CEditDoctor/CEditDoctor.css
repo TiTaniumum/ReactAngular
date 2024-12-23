@@ -1,0 +1,6 @@
+.edit{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1rem 0px 1rem;
+    gap: 10px;
+}

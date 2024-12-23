@@ -1,0 +1,6 @@
+.doctor-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 1rem 0px 1rem
+}

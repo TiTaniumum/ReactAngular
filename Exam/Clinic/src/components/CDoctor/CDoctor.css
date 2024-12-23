@@ -1,0 +1,20 @@
+.doctor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor p{
+    min-width: 300px;
+}
+
+.doctor .buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.doctor .info{
+    display: flex;
+    flex-direction: column;
+}
