@@ -14,7 +14,7 @@ export default function CDoctor({ doctor }: { doctor: Doctor }) {
         <p>{doctor.Specialization}</p>
       </div>
       <div className="buttons">
-        <button>
+        <button onClick={()=>{navigate(`/schedule/${doctor.id}`)}}>
           <FontAwesomeIcon icon={faCalendar} size="1x" />
         </button>
         <button onClick={()=>{navigate(`/edit/${doctor.id}`)}}>

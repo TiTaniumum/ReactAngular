@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DoctorListPage from "./pages/DoctorListPage/DoctorListPage";
 import { ContextProvider } from "./components/ContextProvider.tsx";
 import CEditDoctor from "./components/CEditDoctor/CEditDoctor.tsx";
+import CSchedule from "./components/CSchedule/CSchedule.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <DoctorListPage /> },
       { path: "/edit/:id", element: <CEditDoctor/>},
+      { path: "/schedule/:id", element: <CSchedule/>}
     ],
   },
 ]);
