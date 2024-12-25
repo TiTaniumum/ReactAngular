@@ -1,21 +1,21 @@
 export interface Doctor{
     id: number,
-    FullName: string,
-    Phone: string,
-    Specialization: string,
+    fullname: string,
+    phone: string,
+    specialization: string,
 }
 
 export const doctorList: Doctor[] = [
     {
         id: 0,
-        FullName: 'Васильев Игорь Шпаненко',
-        Phone: '87758342149',
-        Specialization: 'Врачь общей практики',
+        fullname: 'Васильев Игорь Шпаненко',
+        phone: '87758342149',
+        specialization: 'Врачь общей практики',
     },
     {
         id: 1,
-        FullName: 'Мыржакып Дулат Сулейменов',
-        Phone: '87022345674',
-        Specialization: 'Генеколог'
+        fullname: 'Мыржакып Дулат Сулейменов',
+        phone: '87022345674',
+        specialization: 'Генеколог'
     }
 ]

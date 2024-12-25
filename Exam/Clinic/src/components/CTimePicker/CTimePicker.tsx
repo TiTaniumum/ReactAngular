@@ -39,7 +39,7 @@ export default function CTimePicker({
     return components;
   })();
   return (
-    <div className="time-picker">
+    <div className="time-picker timepicker-height">
       {buttons.map((item, index) => (
         <div key={index}>{item}</div>
       ))}

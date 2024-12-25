@@ -14,3 +14,7 @@
     align-items: flex-start;
     padding: 0px 1rem 0px 1rem;
 }
+
+.timepicker-height{
+    height: 55px;
+}

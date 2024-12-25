@@ -3,7 +3,7 @@ import { Doctor, doctorList } from "../models/Doctor";
 
 type GlobalContext = {
   doctorlist: Doctor[];
-  //setChosenEvents: React.Dispatch<React.SetStateAction<any[]>>;
+  setDoctorlist: React.Dispatch<React.SetStateAction<Doctor[]>>;
 };
 
 const Context = createContext<GlobalContext>({} as GlobalContext);
@@ -11,7 +11,7 @@ const Context = createContext<GlobalContext>({} as GlobalContext);
 export function ContextProvider({ children }: { children: ReactNode }) {
   const [doctorlist, setDoctorlist] = useState<Doctor[]>(doctorList);
   return (
-    <Context.Provider value={{ doctorlist }}>
+    <Context.Provider value={{ doctorlist, setDoctorlist }}>
       {children}
     </Context.Provider>
   );
